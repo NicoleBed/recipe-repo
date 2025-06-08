@@ -406,11 +406,6 @@ def remov(): #remove an ingredient
       mycursor.execute(chemp) 
       for i in mycursor.fetchall():
             rlis.append(i[0])
-      '''checker = mycursor.fetchall()
-      checker = list(checker)
-      print(checker)
-      checked = []'''
-
  
       if len(rlis) == 0: #error if pantry is empty
             response = messagebox.askyesno("Warning", "Pantry is empty")
