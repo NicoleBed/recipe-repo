@@ -25,6 +25,7 @@ import datetime
 
 
 def fra():
+      #frame names
       global root
       global adder
       global remo
